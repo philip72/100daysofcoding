@@ -15,12 +15,19 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-# Taking kilometers input from the user
-kilometers = float(input("Enter value in kilometers: "))
+#for loop
+c = list(range(1,9))
+total =0
+for i in c:
+    total =total +i
+    print(total)
 
-# conversion factor
-conv_fac = 0.621371
+#sum of multiples of 3, 5 that are less than are hundred
+totall= 0
+for i in range(0,101):
+    if i % 3== 0 :
+        totall+= i
+        if i % 5== 0:
+            totall +=i
 
-# calculate miles
-miles = kilometers * conv_fac
-print('%0.2f kilometers is equal to %0.2f miles' %(kilometers,miles))
+print(totall)
