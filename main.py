@@ -24,10 +24,10 @@ for i in c:
 
 #sum of multiples of 3, 5 that are less than are hundred
 totall= 0
-for i in range(0,101):
+for i in range(0,100):
     if i % 3== 0 :
         totall+= i
-        if i % 5== 0:
-            totall +=i
+    elif i % 5== 0:
+        totall +=i
 
 print(totall)
