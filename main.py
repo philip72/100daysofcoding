@@ -15,19 +15,29 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-#for loop
-c = list(range(1,9))
-total =0
+# for loop
+c = list(range(1, 9))
+total = 0
 for i in c:
-    total =total +i
+    total = total + i
     print(total)
 
-#sum of multiples of 3, 5 that are less than are hundred
-totall= 0
-for i in range(0,100):
-    if i % 3== 0 :
-        totall+= i
-    elif i % 5== 0:
-        totall +=i
+# sum of multiples of 3, 5 that are less than are hundred
+totall = 0
+for i in range(0, 100):
+    if i % 3 == 0:
+        totall += i
+    elif i % 5 == 0:
+        totall += i
 
 print(totall)
+
+
+def c_greater_than_d_plus_e(f, d, e):
+    if f > d+e:
+        return True
+    else:
+        return False
+
+
+c_greater_than_d_plus_e(2, 3, 5)
