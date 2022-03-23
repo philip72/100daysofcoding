@@ -47,6 +47,7 @@ b=[]
 for x in a:
     b.append(x*2) # [2, 4]
 print(b)
+for g in a:
 
 #same
 

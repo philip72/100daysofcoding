@@ -44,9 +44,9 @@ for element in given_list:
 print(element)
 total6 = 0
 j = len(given_list) - 1
-while given_list[j] < 0:
-    total6 += given_list[j]
-    l -= 1
+# while given_list[j] < 0:
+#     total6 += given_list[j]
+#     l -= 1
 print(total4)
 
 
@@ -58,20 +58,52 @@ print(total4)
 # pos_neg(-4, -5, True) → Tru
 
 def pos_neg(a, b, negative):
-  if negative:
-    return (a < 0 and b < 0)
-  else:
-    return ((a < 0 and b > 0) or (a > 0 and b < 0))
+    if negative:
+        return a < 0 and b < 0
+    else:
+        return ((a < 0 and b > 0) or (a > 0 and b < 0))
 
-# Given a string, return a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged.
+
+# Given a string, return a new string where "not " has been added to the front. However, if the string already begins
+# with "not", return the string unchanged.
 #
 #
 # not_string('candy') → 'not candy'
 # not_string('x') → 'not x'
 # not_string('not bad') → 'not bad'
 def not_string(str):
-  if len(str) >= 3 and str[:3] == "not":
-    return str
-  return "not " + str
-  # str[:3] goes from the start of the string up to but not
-  # including index 3
+    if len(str) >= 3 and str[:3] == "not":
+        return str
+    return "not " + str
+    # str[:3] goes from the start of the string up to but not
+    # including index 3
+
+
+def string_count():
+    str = input("enter str")
+    n = int(input('enter number'))
+    print(str * n)
+
+
+string_count()
+
+
+def hello_name():
+    name = input("enter name ")
+    print('hello' + '' + name)
+
+
+hello_name()
+def repeat_three(str, n):
+    front_len= 3
+    if front_len>len(str):
+        front_len=len(str)
+    front= str[:front_len]
+    result= ""
+    for i in range(n):
+        result=  result+front
+    return result
+
+repeat_three('holl', 3)
+
+
