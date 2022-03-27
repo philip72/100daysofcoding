@@ -21,8 +21,8 @@ def the_rules():
             print("you lose")
 
 
-timesYouWannaPlay =int(input("how many times do u wanna play"))
-gameCount = timesYouWannaPlay
+
+gameCount  =int(input("how many times do u wanna play"))
 end = 0
 while gameCount != end:
     player = input("enter your choice ")
