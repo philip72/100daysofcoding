@@ -61,7 +61,3 @@ def how_to_play(gameChoices):
     gamersp=random.choice(gameChoices)
     usert=input("choose")
     return gamersp, usert
-def play(gameChoices):
-
-
-
