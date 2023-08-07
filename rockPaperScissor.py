@@ -76,6 +76,8 @@ while gameTimes!=0:
             print('you win')
         else:
             computerPoints+=1
+    else:
+        print('this aint a valid play ')
 
     gameTimes-=1
 print(f'u have {userPoints}, computer has{computerPoints}')

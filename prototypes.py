@@ -1,5 +1,6 @@
 from random import randint
 import string
+import requests
 import random
 #List of options
 game  = ["Rock", "Paper", "Scissors"]

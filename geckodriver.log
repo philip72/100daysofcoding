@@ -1,0 +1,107 @@
+1668598185498	geckodriver	INFO	Listening on 127.0.0.1:7881
+1668598188543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7882" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\luck\\AppData\\Local\\Temp\\rust_mozprofileqfFxyB"
+1668598188877	Marionette	INFO	Marionette enabled
+1668598188881	Marionette	INFO	Listening on port 3059
+WebDriver BiDi listening on ws://127.0.0.1:7882
+Read port: 3059
+1668598189110	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luck\\AppData\\Local\\Temp\\rust_mozprofileqfFxyB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:7882/devtools/browser/8273dccb-f27a-489e-b3f0-b86ece2c6aa5
+1668598211835	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-11-16T11:30:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-16T11:30:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-16T11:30:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-16T11:30:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-16T11:30:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-16T11:30:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-16T11:30:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1668598215871	Marionette	INFO	Stopped listening on port 3059
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668598631808	geckodriver	INFO	Listening on 127.0.0.1:6302
+1668598634830	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6303" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\luck\\AppData\\Local\\Temp\\rust_mozprofileMc2iWh"
+1668598635232	Marionette	INFO	Marionette enabled
+1668598635238	Marionette	INFO	Listening on port 6317
+Read port: 6317
+WebDriver BiDi listening on ws://127.0.0.1:6303
+1668598635370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\luck\\AppData\\Local\\Temp\\rust_mozprofileMc2iWh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:6303/devtools/browser/6406b20d-15b4-46aa-b795-13161111b11b
+JavaScript error: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fclient%3Dfirefox-b-d%26q%3Djumia&q=EgTZFXTSGP6W05sGIjDJEcvZrvGXxF2qe2B2649R77IGVloZ1lke2MkoYifs9024m6cpJIf-YGrqe-obXVkyAXI, line 1: SyntaxError: expected expression, got ','
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/rVlqs_C6MEoymNIgrpYBY2eJfhVJuMjEUeWab4z9yRM.js line 2 > eval line 5933 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:97:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:186:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:32
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:775:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:656:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 97, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 97))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1037:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:577:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:686:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1037, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 1037))
+Handler function _httpStopRequest threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:97:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:186:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:32
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:356:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 97, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 97))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "Unable to find target with innerWindowId:4294967318"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Unable to find target with innerWindowId:4294967318"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Unable to find target with innerWindowId:4294967342"
+console.error: "Unable to find target with innerWindowId:4294967351"
+console.error: "Unable to find target with innerWindowId:4294967342"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Unable to find target with innerWindowId:4294967342"
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:97:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:186:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:32
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:775:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:656:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 97, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 97))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1037:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:577:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:686:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1037, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 1037))
+Handler function _httpStopRequest threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/server/actors/network-monitor/utils/network-utils.js:97:1
+exports.createNetworkEvent@resource://devtools/server/actors/network-monitor/utils/network-utils.js:186:33
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:729:32
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:356:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 97, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/server/actors/network-monitor/utils/network-utils.js", 97))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668599245510	Marionette	INFO	Stopped listening on port 6317
